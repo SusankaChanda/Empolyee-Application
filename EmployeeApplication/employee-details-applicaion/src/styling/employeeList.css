@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+.employee-list-heading-container{
+    width: 100%;
+}
+
+.heading-name{
+    margin-left: 20px;
+}
+
+.employee-list-details-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.count-container{
+    margin-right: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.new-button{
+    margin-right: 50px;
+}
+
+.search-bar{
+    border-radius: 10px;   
+    width: 30vw; 
+    height:40px;
+    outline: none;
+    border:1px solid rgb(85, 82, 82);
+    padding-left: 10px;
+}
+
+.employee-list-taskbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.table-container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+table th {
+    border: 2px solid black;
+}
+
+tr td {
+    border: 2px solid black;
+
+}
+
+.edit-button {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.delete-button{
+    width: 70px;
+}
+
+.employee-list-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders for a cleaner look */
+}
+
+.employee-list-table th {
+    background-color: #f2f2f2; /* Light gray header background */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+.employee-list-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.employee-list-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.employee-list-table tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+.search-bar-container{
+    padding-right:30px ;
+}
+
+.search-icon{
+    margin-left: -30px;
+}

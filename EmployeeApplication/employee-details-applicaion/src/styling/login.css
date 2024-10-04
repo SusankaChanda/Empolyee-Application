@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo-image{
+    height: 30px;
+    width: 170px;
+}
+.form-main-container{
+    height: 90vh;
+    width: 100%;
+}
+
+.input-bar-text{
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.form-sub-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient( rgb(212, 208, 208),grey);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(198, 198, 206);
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px grey;
+}
+
+.login-button{
+    height: 40px;
+    width: 150px;
+}
+
+.password-toggle{
+    margin-top: -20px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.error-message{
+    font-size: 15px;
+    color: red;
+    font-family: "Roboto";
+}
+
+.pass-container{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .form-main-container{
+        height: 100vh;
+    }
+    .form-container{
+        width: 80%;
+
+    }
+    
+}
+
